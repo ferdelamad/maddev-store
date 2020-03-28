@@ -1,0 +1,11 @@
+# next.js build output
+.next
+
+# dependencies
+node_modules
+
+# .env
+.env
+
+# Logs
+npm-debug.log*
