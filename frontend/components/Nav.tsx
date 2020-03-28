@@ -1,16 +1,24 @@
 import React from 'react'
 import Link from 'next/link';
 
+import NavStyles from './styles/NavStyles';
+
 const Nav: React.FC = () => {
   return (
-    <div>
-      <Link href="/">
-        <a>Home page</a>
+    <NavStyles>
+      <Link href="/stickers">
+        <a>Stickers</a>
       </Link>
-      <Link href="/sell">
-        <a>Sell page</a>
+      <Link href="/signup">
+        <a>Signup</a>
       </Link>
-    </div>
+      <Link href="/orders">
+        <a>Orders</a>
+      </Link>
+      <Link href="/account">
+        <a>Account</a>
+      </Link>
+    </NavStyles>
   )
 };
 
