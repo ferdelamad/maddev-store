@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Items from '../components/Items';
 
 type Props = {}
 
 const Home: React.FC<Props> = () => {
   return (
     <div>
-      <h3>Home Page!</h3>
+      <Items />
     </div>
   )
 };

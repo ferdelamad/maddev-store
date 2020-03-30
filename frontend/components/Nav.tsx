@@ -6,8 +6,8 @@ import NavStyles from './styles/NavStyles';
 const Nav: React.FC = () => {
   return (
     <NavStyles>
-      <Link href="/stickers">
-        <a>Stickers</a>
+      <Link href="/shop">
+        <a>Shop</a>
       </Link>
       <Link href="/signup">
         <a>Signup</a>
