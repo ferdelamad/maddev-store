@@ -9,6 +9,7 @@ import Page from '../components/Page';
 type Props = AppProps & any
 
 const MyApp = ({ Component, pageProps, apollo }: Props) => {
+
   return (
     <ApolloProvider client={apollo}>
       <Page>
