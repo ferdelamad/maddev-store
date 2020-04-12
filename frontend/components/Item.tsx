@@ -6,6 +6,7 @@ import ItemStyles from './styles/ItemStyles';
 import Title from './styles/Title';
 import PriceTag from './styles/PriceTag';
 import { formatMoney } from '../lib';
+import DeleteItem from './DeleteItem';
 
 type Props = {
   item: ItemType
@@ -50,7 +51,7 @@ const Item: React.FC<Props> = ({ item }) => {
           <a>Edit ✏️</a>
         </Link>
         <button>Add to cart</button>
-        <button>Delete</button>
+        <DeleteItem id={id}>Delete</DeleteItem>
       </div>
     </ItemStyles>
   )

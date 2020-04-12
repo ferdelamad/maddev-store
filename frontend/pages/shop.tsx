@@ -1,9 +1,11 @@
+import Items from '../components/Items';
+
 type Props = {}
 
 const Shop: React.FC<Props> = () => {
   return (
     <div>
-      <h3>Shop something!</h3>
+      <Items />
     </div>
   )
 };

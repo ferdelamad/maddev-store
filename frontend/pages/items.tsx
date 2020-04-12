@@ -1,11 +1,13 @@
-// import React from 'react';
+import Items from '../components/Items';
 
-// const Items = () => {
-//   return (
-//     <div>
-//       <h3>Items</h3>
-//     </div>
-//   )
-// }
+type Props = {}
 
-// export default Items;
+const Home: React.FC<Props> = () => {
+  return (
+    <div>
+      Single Item
+    </div>
+  )
+};
+
+export default Home;
