@@ -21,7 +21,7 @@
     "apollo-link-error": "^1.1.12",
     "apollo-link-http": "^1.5.16",
     "graphql-tag": "^2.10.3",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "next-with-apollo": "^5.0.0",
     "nprogress": "^0.2.0",
     "react": "^16.13.1",
